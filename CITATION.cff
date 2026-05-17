@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the companion paper."
+title: "Adaptive state-action abstraction via rate-distortion"
+authors:
+  - family-names: "Rosas"
+    given-names: "Fernando E."
+year: 2026
+type: software
+license: MIT
