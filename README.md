@@ -1,13 +1,11 @@
 # Adaptive state-action abstraction via rate-distortion
 
 This repository contains code for reproducing the tabular experiments in the
-paper **"Adaptive state-action abstraction via rate-distortion"**.
+manuscript **"Adaptive state-action abstraction via rate-distortion"**.
 
-**Author:** Fernando E. Rosas
-
-The project studies how a reinforcement-learning agent can solve a task through
+The paper studies how a reinforcement-learning agent can solve a task through
 a sequence of abstractions of increasing resolution. The guiding intuition is
-simple: early in learning, a coarse description of the environment may be good
+that early in learning, a coarse description of the environment may be good
 enough, because planning error is still large. Finer distinctions become useful
 only once the agent has solved the current abstract problem well enough that
 the abstraction itself is now the main source of error.
